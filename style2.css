@@ -1,0 +1,61 @@
+ .flex{ float: right}
+
+ nav ul li  { 
+                display: inline;
+             justify-content: space-between;  
+              }
+ nav ul li a {text-decoration: none;}             
+     
+
+ nav  { flex-direction: row; }
+      
+ 
+ body main div p {display: inline-block;
+                 margin-right: 20px;
+                 font-family: Roboto,Arial,sans-serif;}
+ 
+        
+.borderdesign1 {  background-color:#00b39b;
+                  color: white;
+                  }
+               
+.borderdesign2 { background: #3d83df;
+                   color: white}
+
+.borderdesign3 { background-color:black;
+                 color: white}
+
+.borderdesign { 
+   
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    text-align: center;}
+
+  
+                    
+.inline{ display: flex}
+    
+main div h1 { display:inline-block;}
+
+.background { background-color:aquamarine;}
+.background2{ background-color: white;
+               text-align: center;
+               border:none;
+               border-radius: 10px;
+               margin: 25px;
+               padding: 20px; }
+.backgroundimg{ background-image:url('https://www.docplanner.com/img/sygnet.png' ) ;
+                background-repeat: no-repeat;
+                background-position: left bottom;
+                 }
+
+                 button{ background-color:deepskyblue;
+                    color: white;
+                   font-size:medium;
+                   border-radius: 5px;
+                   border:double ghostwhite;
+                 }               
+       
+              button:hover{ background-color:darkblue}
